@@ -1,4 +1,8 @@
 class C8NewX {
+    /*
+    * Algorithm created to use remainder of division and while
+    */
+
     public static void main(String[] args) {
         int x = 13;
 

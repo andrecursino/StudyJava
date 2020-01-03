@@ -38,7 +38,6 @@ class Program1 {
     public static void main(String[] args) {
         //create account
         Account myAccount = new Account();
-        Client c = new Client();
 
         myAccount.ownerAccount.name = "Duke";
 

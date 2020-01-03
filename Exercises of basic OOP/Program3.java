@@ -22,6 +22,16 @@ class Account {
         double profit = this.balance * 0.1;
         return profit;
     }
+
+    String getDataForPrinting() {
+        String data;
+        data = "Owner Account: " + this.ownerAccount;
+        data += "\nNumber of Account: " + this.numberAccount;
+        data += "\nCurrent balance: " + this.balance;
+        data += "\nYield for the current balance: " + this.yieldProfit();
+
+        return data;
+    }
 }
 
 class Program3 {
@@ -42,5 +52,7 @@ class Program3 {
         c1.cashDeposit(100);
         System.out.println("Current balance: " + c1.balance);
         System.out.println("Monthly earnings: " + c1.yieldProfit());
+
+        System.out.println(c1.getDataForPrinting());
     }
 }

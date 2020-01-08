@@ -1,3 +1,5 @@
+package br.com.andrecursino.accountbank;
+
 public class main {
 	public static void main(String[] args) {
 		Account myAccount = new Account();

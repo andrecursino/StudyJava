@@ -1,3 +1,4 @@
+package br.com.andrecursino.accountbank;
 
 public class Account {
 	
